@@ -61,4 +61,17 @@ const longestString2 = (arr) => {
   return longest;
 };
 
-console.log(longestString2(["endowment", "wonderful", "cool"]));
+console.log(longestString2(["endowment", "wonderfully", "cool"]));
+
+//ES 6 Syntax Possible Solution
+const longestString3 = (arr) => {
+  let longest = "";
+  for (const item of arr) {
+    if (item.length > longest.length) {
+      longest = item;
+    }
+  }
+  return longest;
+};
+
+console.log(longestString3(["dopesick", "warriors", "commensurate"]));
