@@ -56,8 +56,6 @@ const longestString2 = (arr) => {
   arr.forEach((item) => {
     if (item.length > longest.length) {
       longest = item;
-    } else if (item.length === longest.length) {
-      console.log("More than one word have the same longest length");
     }
   });
   return longest;
