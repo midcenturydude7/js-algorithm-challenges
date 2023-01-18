@@ -1,7 +1,8 @@
 /*
-*************************************************************************************
-PROMPT: Write a function that accepts an array of strings. Return the longest string.
-*************************************************************************************
+**********************************************************
+PROMPT: Write a function that accepts an array of strings. 
+        Return the longest string.
+**********************************************************
 
 ========
 APROACH:
