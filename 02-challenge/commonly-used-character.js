@@ -56,5 +56,7 @@ const countingChars = (str) => {
 };
 
 console.log(
-  `The most used character in the word is: ${countingChars("Goofydoodoohead")}`
+  `The letter that appears the most times is: ${countingChars(
+    "Gooooofeydoooodooohead"
+  )}`
 );
