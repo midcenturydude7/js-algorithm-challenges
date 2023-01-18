@@ -55,4 +55,6 @@ const countingChars = (str) => {
   return maxChar;
 };
 
-console.log(countingChars("goofy"));
+console.log(
+  `The most used character in the word is: ${countingChars("Goofydoodoohead")}`
+);
