@@ -39,8 +39,8 @@ To find the character most often used in a string, we need to be able to count h
 
 const countingChars = (str) => {
   const charCount = {};
-  let maxCharCount = 0;
-  let maxChar = "";
+  let maxCharCount = "";
+  let maxCharLetter = "";
 
   for (let i = 0; i < str.length; i++) {
     charCount[str[i]] = ++charCount[str[i]] || 1;
@@ -49,10 +49,10 @@ const countingChars = (str) => {
   for (let key in charCount) {
     if (charCount[key] >= maxCharCount) {
       maxCharCount = charCount[key];
-      maxChar = key;
+      maxCharLetter = key;
     }
   }
-  return maxChar;
+  return maxCharLetter;
 };
 
 console.log(
