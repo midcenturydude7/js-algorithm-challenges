@@ -19,10 +19,10 @@ QUESTIONS
 Questions to ask the interviewer:
 
 Do we need to consider if there is no string given?
-For this challenge, no
+  For this challenge, no
 
 Do we need to consider times when more than one character shows up the same number of times?
-No. Return the last one.
+  No. Return the last one.
 
 ===== 
 PLAN

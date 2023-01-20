@@ -19,10 +19,10 @@ QUESTIONS
 Questions to ask the interviewer:
 
 Do we need to consider if there are no strings in the array?
-For this challenge, no
+  For this challenge, no
 
 Do we need to consider times when all of the strings are the same length?
-Yes. Return the first string.
+  Yes. Return the first string.
 
 ===== 
 PLAN
@@ -41,7 +41,7 @@ For this problem, we need to:
 //ES 5 Syntax Possible Solution:
 function longestString1(arr) {
   var longest = "";
-  for (var i = 0; i < arr.length; i++) {
+  for (let i = 0; i < arr.length; i++) {
     if (arr[i].length > longest.length) {
       longest = arr[i];
     }
